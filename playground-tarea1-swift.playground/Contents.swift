@@ -2,8 +2,6 @@
 
 import UIKit
 
-
-
 for i in 0...100{
     
     if i%5==0{
