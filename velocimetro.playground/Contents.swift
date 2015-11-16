@@ -2,6 +2,7 @@
 
 import UIKit
 
+//enumeracion Velocidades
 enum Velocidades:Int{
     case apagado = 0
     case velocidadBaja = 20
@@ -12,7 +13,7 @@ enum Velocidades:Int{
        self = velocidadInicial
     }
 }
-
+// clase Auto
 class Auto{
     var velocidad : Velocidades
     
