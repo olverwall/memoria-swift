@@ -60,5 +60,5 @@ let coche = Auto()
 
 for i in 1...20{
     var result = coche.cambioDeVelocidad()
-    print("\(i) \(result.actual) \(result.velocidadEnCadena).\n\n")
+    print("\(i). \(result.actual), \(result.velocidadEnCadena).\n\n")
 }
